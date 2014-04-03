@@ -1,0 +1,36 @@
+.l-form-wp {
+  margin-top: 40px;
+  width: 476px;
+  min-height: 392px;
+}
+.l-form-wp form input,
+.l-form-wp form label {
+  display: block;
+}
+.l-form-wp form label.first-label {
+  margin-top: 20px;
+}
+.l-form-wp form label {
+  margin-top: 30px;
+}
+.l-form-wp form input {
+  outline: none;
+  margin-top: 10px;
+}
+.l-form-wp form input.l-input {
+  padding: 3px 8px 4px 8px;
+  width: 357px;
+  height: 30px;
+}
+.l-form-wp form select {
+  width: 150px;
+  height: 22px;
+  margin-top: 10px;
+}
+.l-form-wp form p {
+  margin-top: 5px;
+}
+.l-form-wp form input.l-submit {
+  margin-top: 30px;
+  padding: 10px 40px;
+}

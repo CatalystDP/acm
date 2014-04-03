@@ -1,0 +1,90 @@
+.l-main-area {
+  width: 700px;
+}
+.l-main-area .l-personpic {
+  display: block;
+  margin-top: 66px;
+  margin-right: 70px;
+  width: 150px;
+  height: 150px;
+}
+.l-main-area .l-uploadpic-wp {
+  margin-top: 66px;
+}
+.l-main-area .l-uploadpic-wp .l-registpic {
+  display: block;
+  margin-right: 0;
+  width: 150px;
+  height: 150px;
+}
+.l-main-area .l-uploadpic-wp .l-uploadpic-form {
+  position: relative;
+}
+.l-main-area .l-uploadpic-wp .l-upload-pic {
+  margin-top: 10px;
+  padding: 4px 5px;
+}
+.l-main-area .l-uploadpic-wp #picture {
+  margin-top: 10px;
+  opacity: 0;
+  width: 62px;
+  height: 24px;
+}
+.l-main-area .l-uploadpic-wp p {
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+.l-form-wp {
+  margin-top: 40px;
+  width: 476px;
+  min-height: 392px;
+}
+.l-form-wp form input,
+.l-form-wp form label {
+  display: block;
+}
+.l-form-wp form label.first-label {
+  margin-top: 20px;
+}
+.l-form-wp form label {
+  margin-top: 30px;
+}
+.l-form-wp form input {
+  outline: none;
+  margin-top: 10px;
+}
+.l-form-wp form input.l-input {
+  padding: 3px 8px 4px 8px;
+  width: 357px;
+  height: 30px;
+}
+.l-form-wp form select {
+  width: 150px;
+  height: 22px;
+  margin-top: 10px;
+}
+.l-form-wp form p {
+  margin-top: 5px;
+}
+.l-form-wp form input.l-submit {
+  *width: 114px;
+  *height: 40px;
+  margin-top: 30px;
+  padding: 10px 40px;
+}
+.l-form-wp form input.l-submit:focus {
+  outline: none;
+}
+.l-form-wp form div.l-other-school {
+  margin-left: 25px;
+  margin-top: 10px;
+  padding: 2px 10px;
+  position: relative;
+}
+.l-form-wp form .l-school-input-wp {
+  display: none;
+  position: absolute;
+  left: 227px;
+  top: 31px;
+  width: 280px;
+}

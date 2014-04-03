@@ -1,0 +1,130 @@
+<h1 class="float-left sk-teaminfo-title">队伍信息</h1>
+<div>
+    <div class="l-btn l-edit-btn sk-btn sk-edit-btn  float-right">
+
+        <span class="l-btn-icon sk-btn-icon float-left"></span>
+        <span class="js-btn-content">编辑</span>
+    </div>
+</div>
+<div class="v-marginfix clearfix"></div>
+<div style="margin-top: 20px;">
+    <div class="l-btn sk-btn l-delete-btn sk-delete-btn js-delete-btn float-right">
+        <span class="l-btn-icon sk-btn-icon float-left"></span>
+        <span class=>删除队伍</span>
+    </div>
+</div>
+
+<div class="v-marginfix clearfix"></div>
+<table class="js-teaminfo-display" style="display:block;">
+    <tr>
+        <th>队名</th>
+        <th>学校</th>
+        <th>赛制</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年级</th>
+        <th>邮箱</th>
+        <th>教练</th>
+        <th>状态</th>
+    </tr>
+    <tr>
+        <td>测试测试测试测试</td>
+        <!-- 渲染队名 -->
+        <td>测试测试测试测试</td>
+        <!-- 渲染学校 -->
+        <td>测试测试测试测试</td>
+        <!-- 渲染赛制 -->
+        <td class="p-with-margin">
+            <p>人</p>
+
+            <p>人</p>
+
+            <p>人</p>
+        </td>
+        <td class="p-with-margin">
+            <p>人</p>
+
+            <p>人</p>
+
+            <p>人</p>
+        </td>
+        <td class="p-with-margin">
+            <p>人</p>
+
+            <p>人</p>
+
+            <p>人</p>
+        </td>
+        <td class="p-with-margin">
+            <p>人</p>
+
+            <p>人</p>
+
+            <p>人</p>
+        </td>
+        <!-- 渲染邮箱格式同人名 -->
+        <td>测试</td>
+        <!-- 教练 -->
+        <td>测试</td>
+        <!-- 状态 -->
+    </tr>
+</table>
+<form action="" class="js-teaminfo-edit" style="display: none;">
+    <table cellpadding="0">
+        <tr>
+            <th>队名</th>
+            <th>学校</th>
+            <th>赛制</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年级</th>
+            <th>邮箱</th>
+            <th>教练</th>
+            <th>状态</th>
+        </tr>
+        <tr>
+            <td class="l-can-edit js-can-edit">
+                <textarea type="text" name="teamname" id="teamname">测试</textarea>
+            </td>
+            <td>测试测试测试测试</td>
+            <td class="l-can-edit js-can-edit">
+                <select name="rules" id="rules" style="width:80px;">
+                    <option value="网络赛">网络赛</option>
+                    <option value="现场赛">现场赛</option>
+                    <!-- 根据数据库的比赛信息，php给option动态添加selected=selected -->
+                </select>
+            </td>
+            <td class="p-with-margin">
+                <p>人</p>
+
+                <p>人</p>
+
+                <p>人</p>
+            </td>
+            <td class="p-with-margin">
+                <p>人</p>
+
+                <p>人</p>
+
+                <p>人</p>
+            </td>
+            <td class="p-with-margin">
+                <p>人</p>
+
+                <p>人</p>
+
+                <p>人</p>
+            </td>
+            <td class="p-with-margin">
+                <p>人</p>
+
+                <p>人</p>
+
+                <p>人</p>
+            </td>
+            <td>测试</td>
+            <td>测试</td>
+        </tr>
+        <!-- 这里的渲染是对textarea标签的内容和input value的渲染 -->
+    </table>
+</form>

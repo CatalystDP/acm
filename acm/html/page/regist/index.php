@@ -1,0 +1,180 @@
+<!DOCTYPE
+        html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Emulate=IE7">
+    <title></title>
+    <base href="http://192.168.63.1/acm/html/"/>
+    <!-- <base href="http://localhost/acm/html/"/> -->
+    <link rel="stylesheet" href="css/login_regist/index.css"/>
+    <link rel="stylesheet" href="css/tools/dp&mz_tools.css"/>
+</head>
+<body>
+    <div class="hd-wp">
+        <div class="l-hd-c center">
+            <div class="hd-logo-wp float-left position-relative">
+                <a href="page/index">
+                    <img src="img/index/logo.gif" alt=""/>
+                </a>
+            </div>
+            <div class="hd-login-wp float-right">
+                <a class="float-left" href="page/login">登录</a>
+            </div>
+        </div>
+    </div>
+    <div class="nav-wp center">
+        <div class="l-nav-c float-right">
+            <ul>
+                <li>
+                    <a href="">队伍信息</a>
+                </li>
+                <li>
+                    <a href="">首页</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="v-marginfix"></div>
+    <div class="l-main-area sk-main-area center">
+        <div class="v-marginfix"></div>
+        <div class="l-form-wp sk-form-wp float-left">
+            <form action="page/regist/submit.php" method="post">
+                <div class="v-marginfix"></div>
+                <div>
+                    <label for="username" class="first-label">
+                        用户名
+                        <span>*</span>
+                    </label>
+                    <input id="username" class="l-input sk-input" name="username" type="text"/>
+                    <p class="sk-input-request">用户名中的符号只能为下划线，长度6-16个字符,
+                        不可包含select,update,<br>delete,drop等大写或小写的字符串</p>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <div>
+                    <label for="password">
+                        密码
+                        <span>*</span>
+                    </label>
+                    <input id="password" class="l-input sk-input" name="password" type="password"/>
+                    <p class="sk-input-request">密码中的符号只能为下划线，长度6-16个字符,
+                    不可包含select,update,<br>delete,drop等大写或小写的字符串</p>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <div>
+                    <label for="confirmpassword">
+                        确认密码
+                        <span>*</span>
+                    </label>
+                    <input id="confirmpassword" class="l-input sk-input" name="confirmpassword" type="password"/>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <div>
+                    <label for="email">邮箱
+                        <span>*</span>
+                    </label>
+                    <input type="text" id="email" class="l-input sk-input"
+                    name="email"/>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <div>
+                    <label for="phone">
+                        联系方式
+                        <span>*</span>
+                    </label>
+                    <input type="text" id="phone" name="phone" class="l-input sk-input"/>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <div style="position: relative;">
+                    <label for="school">
+                        学校
+                        <span>*</span>
+                    </label>
+                    <select name="school" id="school" class="float-left">
+                        <?php
+                            //include_once("SchoolShow.php");
+                        ?>
+                        <!-- 
+                        php动态添加option标签,格式：<option value="学校名">学校名</option>
+                    -->
+                    </select>
+                    <div class="l-other-school sk-other-school float-left">其他
+                    </div>
+                    <div class="l-school-input-wp js-school-input-wp">
+                        <input style="margin-top: 0;width:120px;
+                        height:19px;font-size: 1.4em;" type="text" class="sk-input js-school-input float-left"/>
+                        <input type="button" class="l-save-school float-left" value="保存" style="margin-top:0;margin-left: 15px;height: 21px;"/>
+                    </div>
+                    <div class="v-marginfix clearfix"></div>
+                     <p class="sk-input-request">学校必须填写全名,
+                        否则不给AC
+                    </p>
+                </div>
+                <div class="v-marginfix clearfix"></div>
+                <div>
+                    <label for="sex">
+                        性别
+                        <span>*</span>
+                    </label>
+                    <select name="sex" id="sex">
+                        <option value="男">男</option>
+                        <option value="女">女</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="grade">
+                        年级
+                        <span>*</span>
+                    </label>
+                    <select name="grade" id="grade">
+                        <option value="大一">大一</option>
+                        <option value="大二">大二</option>
+                        <option value="大三">大三</option>
+                        <option value="大四">大四</option>
+                        <option value="研一">研一</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="stuname">
+                        姓名
+                        <span>*</span>
+                    </label>
+                    <input id="stuname" name="stuname" class="coach l-input sk-input" type="text"/>
+                    <p class="sk-input-request">姓名只能为中文</p>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <input type="hidden" id="picpath" name="picpath" value=""/>
+                <input class="l-submit sk-submit sk-register" type="submit" value="注册"/>
+            </form>
+        </div>
+        <div class="l-uploadpic-wp float-left">
+                <img src="img/defaultpic/defaultpic.gif" alt="未上传头像" class="l-registpic sk-personpic" />
+             <p>图片尺寸不可以超过150*150</p>
+             <form class="l-uploadpic-form position-relative" method="post" enctype="multipart/form-data" accept="image/*" encoding="multipart/form-data"  action="page/regist/ImageUpload.php" target="uploadiframe">
+                <input type="button" class="l-upload-pic sk-upload-pic js-upload-pic display-block position-absolute" value="上传图片"/>
+                 <input type="file" name="picture" id="picture" class="position-absolute"/>
+             </form>
+             <iframe id="piciframe" style="width:0;height:0;" src="" name="uploadiframe" frameborder="0"></iframe>
+        </div>
+        
+    </div>
+    <div class="v-marginfix clearfix"></div>
+    <div class="l-footer-wp sk-footer-wp">
+        <div class="l-footer-c sk-footer-c center">
+            <span class="footer-margin">Email :</span>
+            <span class="block-margin">dlmu_acm2013@163.com</span>
+        </div>
+    </div>
+    <script src="seajs/sea.js"></script>
+    <script>
+    seajs.config({
+        alias:{
+            "jquery":"js/tools/jquery-1.10.2.min.js",
+            "jqueryColor":"js/tools/jquery.color-2.1.2.min.js"
+        }
+    });
+    seajs.use("js/app/regist/index.js");
+</script>
+</body>
+</html>

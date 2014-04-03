@@ -1,0 +1,408 @@
+body {
+  font-size: 63%;
+  font-family: "微软雅黑";
+}
+html {
+  height: 100%;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+.hd-wp {
+  width: 100%;
+  height: 133px;
+}
+.hd-wp .l-hd-c {
+  width: 1000px;
+  height: 100%;
+}
+.hd-wp .l-hd-c .hd-logo-wp img {
+  width: 120px;
+  height: auto;
+  border: none;
+}
+.hd-wp .l-hd-c .hd-login-wp {
+  width: 150px;
+  height: 50px;
+}
+.hd-wp .l-hd-c .hd-login-wp > a {
+  width: 75px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 1.3em;
+  color: #2d2d2d;
+}
+.hd-wp .l-hd-c .hd-login-wp > .hd-login-logined {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.nav-wp {
+  width: 1000px;
+  height: 30px;
+  margin-top: -17px;
+}
+.nav-wp .l-nav-c {
+  width: 473px;
+  height: 30px;
+}
+.nav-wp .l-nav-c ul li {
+  float: right;
+  margin-left: 40px;
+}
+.nav-wp .l-nav-c ul li a {
+  font-size: 1.8em;
+  color: #2d2d2d;
+}
+.l-info-wp {
+  margin-top: 70px;
+  width: 800px;
+}
+.l-info-wp .l-baseinfo-wp {
+  height: 290px;
+}
+.l-info-wp .l-personinfo-title {
+  width: 87px;
+  height: 27px;
+}
+.l-info-wp .l-main {
+  margin-top: 15px;
+}
+.l-info-wp .l-baseinfo-form ul li {
+  width: 300px;
+  float: left;
+}
+.l-info-wp .l-btn {
+  padding: 7px 0;
+  width: 86px;
+  height: 18px;
+}
+.l-info-wp .l-btn span.l-btn-icon {
+  margin-left: 5px;
+  width: 18px;
+  height: 18px;
+}
+.l-info-wp .l-display-baseinfo-wp {
+  width: 641px;
+}
+.l-info-wp .l-display-baseinfo-wp ul.l-baseinfo-display li {
+  width: 300px;
+  float: left;
+}
+.l-info-wp li.l-left-margin {
+  margin-left: 30px;
+}
+.l-info-wp li.l-top-margin {
+  margin-top: 20px;
+}
+.l-info-wp .l-label {
+  width: 70px;
+  float: left;
+}
+.l-info-wp .l-content {
+  float: left;
+}
+.l-info-wp .l-baseinfo-wp .l-personpic {
+  display: block;
+  margin-top: 66px;
+  margin-right: 70px;
+  width: 150px;
+  height: 150px;
+}
+.l-info-wp .l-baseinfo-wp .l-uploadpic-wp .l-registpic {
+  display: block;
+  margin-right: 0;
+  width: 150px;
+  height: 150px;
+}
+.l-info-wp .l-baseinfo-wp .l-uploadpic-wp .l-uploadpic-form {
+  position: relative;
+}
+.l-info-wp .l-baseinfo-wp .l-uploadpic-wp .l-upload-pic {
+  margin-top: 10px;
+  padding: 4px 5px;
+}
+.l-info-wp .l-baseinfo-wp .l-uploadpic-wp #picture {
+  margin-top: 10px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  width: 62px;
+  height: 24px;
+}
+.l-info-wp .l-baseinfo-wp .l-uploadpic-wp p {
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+.l-info-wp .l-teaminfo-wp .l-create-team {
+  width: 100px;
+  height: 30px;
+}
+.l-info-wp .l-teaminfo-wp input {
+  outline: none;
+  margin-top: 10px;
+}
+.l-info-wp .l-teaminfo-wp input#teamsubmit {
+  *width: 114px;
+  *height: 40px;
+  margin-top: 30px;
+  padding: 10px 40px;
+}
+.l-info-wp .l-teaminfo-wp input#teamsubmit:focus {
+  outline: none;
+}
+.l-info-wp .l-teaminfo-wp select {
+  width: 150px;
+  height: 22px;
+  margin-top: 10px;
+}
+.l-info-wp .l-teaminfo-wp input,
+.l-info-wp .l-teaminfo-wp label {
+  display: block;
+}
+.l-info-wp .l-teaminfo-wp textarea {
+  display: block;
+  width: 84px;
+  height: 60px;
+}
+.l-info-wp .l-teaminfo-wp table {
+  margin-top: 30px;
+  width: 100%;
+}
+.l-info-wp .l-teaminfo-wp table td {
+  padding: 0;
+  height: auto;
+  text-align: center;
+}
+.l-info-wp .l-teaminfo-wp table td.p-with-margin p {
+  margin-top: 5px;
+}
+.l-info-wp .l-teaminfo-wp .l-teamregist {
+  margin-top: 20px;
+}
+.l-info-wp .l-teaminfo-wp input.l-submit {
+  *width: 114px;
+  *height: 40px;
+  margin-top: 30px;
+  padding: 10px 40px;
+}
+.l-info-wp .l-teaminfo-wp input.l-submit:focus {
+  outline: none;
+}
+.sk-info-wp .sk-baseinfo-wp .sk-personinfo-title {
+  line-height: 27px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.6em;
+}
+.sk-info-wp .sk-baseinfo-wp .sk-personpic {
+  border: 1px solid #66afe9;
+}
+.sk-info-wp .sk-baseinfo-wp .sk-upload-pic {
+  border: none;
+  background-color: #62caea;
+  color: #ffffff;
+}
+.sk-info-wp .sk-baseinfo-wp .sk-upload-pic:hover {
+  cursor: pointer;
+  background-color: #35bbe4;
+}
+.sk-info-wp .sk-split-line {
+  border-top: 1px solid #E5E5E5;
+}
+.sk-info-wp .sk-label {
+  font-size: 1.7em;
+  color: #195183;
+}
+.sk-info-wp .sk-content {
+  font-size: 1.7em;
+  color: #3a3a3a;
+}
+.sk-info-wp .sk-btn {
+  line-height: 18px;
+  vertical-align: middle;
+  font-size: 1.4em;
+  color: #fff;
+}
+.sk-info-wp .sk-btn:hover {
+  cursor: pointer;
+}
+.sk-info-wp .sk-edit-btn {
+  background-color: #7EC75A;
+  border: 1px solid #3FA92A;
+  text-indent: 20px;
+}
+.sk-info-wp .sk-edit-btn span.sk-btn-icon {
+  background-image: url("../../img/personinfo/edit-icon.png");
+}
+.sk-info-wp .sk-delete-btn {
+  background-color: #BCBCBC;
+  border: 1px solid #ADADAD;
+  text-indent: 2px;
+}
+.sk-info-wp .sk-delete-btn span.sk-btn-icon {
+  background-image: url("../../img/personinfo/delete-icon.png");
+}
+.sk-info-wp .sk-save-btn {
+  background-color: #4297DC;
+  border: 1px solid #2769A1;
+  text-indent: 20px;
+}
+.sk-info-wp .sk-save-btn span.sk-btn-icon {
+  background-image: url("../../img/personinfo/save-icon.png");
+}
+.sk-info-wp .sk-create-team {
+  background-color: #4297DC;
+  border: 1px solid #2769A1;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.sk-info-wp .sk-create-team:hover {
+  cursor: pointer;
+}
+.sk-info-wp .sk-teaminfo-title {
+  font-size: 1.6em;
+}
+.sk-info-wp .sk-teaminfo-form label {
+  font-size: 1.6em;
+}
+.sk-info-wp .sk-teaminfo-form label span {
+  color: red;
+}
+.sk-info-wp .sk-teaminfo-form table {
+  border-spacing: 1px;
+  empty-cells: show;
+  border-collapse: separate;
+  font-size: 1.5em;
+  line-height: 100%;
+  table-layout: fixed;
+}
+.sk-info-wp .sk-teaminfo-form table th {
+  width: 90px;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+.sk-info-wp .sk-teaminfo-form table td {
+  vertical-align: middle;
+  background-color: #F7F7F7;
+}
+.sk-info-wp .sk-teaminfo-form table td p {
+  margin: 0;
+}
+.sk-info-wp .sk-teaminfo-form table .l-can-edit input {
+  display: block;
+  margin: 0;
+  width: 80px;
+  text-align: center;
+}
+.sk-info-wp .sk-teaminfo-form .sk-submit {
+  border: none;
+  color: #ffffff;
+  font-size: 1.7em;
+}
+.sk-info-wp .sk-teaminfo-form .sk-register {
+  background-color: #62caea;
+}
+.sk-info-wp .sk-teaminfo-form .sk-register:hover {
+  cursor: pointer;
+  background-color: #35bbe4;
+}
+.js-display-block {
+  display: block;
+}
+.js-display-none {
+  display: none;
+}
+.l-footer-wp {
+  margin-top: 40px;
+  padding: 15px 0;
+  width: 100%;
+  height: 40px;
+}
+.l-footer-wp .l-footer-c {
+  width: 1000px;
+  text-align: center;
+}
+.l-footer-wp .l-footer-c span {
+  display: inline-block;
+  height: 40px;
+}
+.l-footer-wp .l-footer-c span.footer-margin {
+  margin-left: 30px;
+}
+.l-footer-wp .l-footer-c span.block-margin {
+  margin-left: 15px;
+}
+.l-footer-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.sk-footer-wp {
+  background-color: #2e3238;
+}
+.sk-footer-wp .sk-footer-c span {
+  font-size: 1.5em;
+  color: #9ea2a5;
+  line-height: 40px;
+  vertical-align: middle;
+}

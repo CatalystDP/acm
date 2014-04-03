@@ -1,0 +1,44 @@
+<table>
+    <!--表格由php渲染-->
+    <tr>
+        <th>队伍名称</th>
+        <th>学校</th>
+        <th>状态</th>
+    </tr>
+    <!--表头是静态的-->
+    <!--剩余的行由php动态生成-->
+    <tr>
+        <td>坑爹的队伍</td>
+        <td>大连坑爹大学</td>
+        <td>通过</td>
+    </tr>
+</table>
+<div class="v-marginfix"></div>
+<div class="l-pagesplit-wp sk-pagesplit-wp center">
+    <!--分页：第一页上一页下一页最后一页为固定php
+    ul中的li的链接及页号有php动态渲染
+    -->
+    <div class="float-left js-first-page">
+        <a href="">第一页</a>
+    </div>
+    <div class="float-left l-page js-prev-page">
+        <a href="">上一页</a>
+    </div>
+    <ul class="float-left">
+        <li class="l-page">
+            <a href="">1</a>
+        </li>
+        <li class="l-page">
+            <a href="">2</a>
+        </li>
+        <li class="l-page">
+            <a href="">3</a>
+        </li>
+    </ul>
+    <div class="float-left l-page js-next-page">
+        <a href="">下一页</a>
+    </div>
+    <div class="float-left l-page js-last-page">
+        <a href="">最后一页</a>
+    </div>
+</div>

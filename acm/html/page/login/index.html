@@ -1,0 +1,94 @@
+<!DOCTYPE
+        html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Emulate=IE7">
+    <title></title>
+    <base href="http://192.168.63.1/acm/html/"/>
+    <!-- <base href="http://localhost/acm/html/"/> -->
+    <link rel="stylesheet" href="css/login_regist/index.css"/>
+    <link rel="stylesheet" href="css/tools/dp&mz_tools.css"/>
+</head>
+<body>
+    <div class="hd-wp">
+        <div class="l-hd-c center">
+            <div class="hd-logo-wp float-left position-relative">
+                <a href="page/index">
+                    <img src="img/index/logo.gif" alt=""/>
+                </a>
+            </div>
+            <div class="hd-login-wp float-right">
+                <a class="float-left" href="page/regist">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="nav-wp center">
+        <div class="l-nav-c float-right">
+            <ul>
+                <li>
+                    <a href="">队伍信息</a>
+                </li>
+                <li>
+                    <a href="">首页</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="l-main-area center">
+        <div class="v-marginfix"></div>
+        <img class="l-personpic sk-personpic float-left" src="img/defaultpic/defaultpic.gif"/>
+        <div class="l-form-wp sk-form-wp float-left">
+            <form action="page/login/LoginCheck.php" method="post">
+                <div class="v-marginfix"></div>
+                <div>
+                    <label for="username" class="first-label">
+                        用户名
+                        <span>*</span>
+                    </label>
+                    <input id="username" class="l-input sk-input" name="username" type="text"/>
+                    <p class="sk-input-request">用户名中的符号只能为下划线，长度6-16个字符</p>
+                    <p class="sk-input-status js-input-status"></p>
+                </div>
+                <div>
+                    <label for="password">
+                        密码
+                        <span>*</span>
+                    </label>
+                    <input id="password" class="l-input sk-input" name="password" type="password"/>
+                    <p>密码中的符号只能为下划线，长度6-16个字符</p>
+                </div>
+                <div>
+                    <label for="">
+                        验证码
+                        <span>*</span>
+                    </label>
+                    <input type="text" id="validate" name="validate" class="float-left sk-input"/>
+                    <img src='page/login/Code.php' id="validatecodepic" class="l-validate-code js-validate-code float-left" alt="网络不给力啊，刷不出验证码了" /><!-- 登录页面加载时用php给src赋值,初始化验证码-->
+                    <a href="" class="l-change-validate js-change-validate float-left">看不清楚,换一张</a><!-- href 部分填写php获取验证码的接口-->
+                </div>
+                <div class="v-marginfix clearfix"></div>
+                <input class="l-submit sk-submit sk-login" type="submit" value="登录"/>
+            </form>
+        </div>
+    </div>
+    <div class="v-marginfix clearfix"></div>
+    <div class="l-footer-wp sk-footer-wp" id="footer">
+        <div class="l-footer-c sk-footer-c center">
+            <span class="footer-margin">Email :</span>
+            <span class="block-margin">dlmu_acm2013@163.com</span>
+        </div>
+    </div>
+    <script src="seajs/sea.js"></script>
+    <script>
+    seajs.config({
+        alias:{
+            "jquery":"js/tools/jquery-1.10.2.min.js",
+            "jqueryColor":"js/tools/jquery.color-2.1.2.min.js"
+        }
+    });
+    seajs.use("js/app/login/index.js");
+</script>
+</body>
+</html>

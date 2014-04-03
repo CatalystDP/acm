@@ -1,0 +1,27 @@
+.l-teamtable-wp {
+  margin-top: 40px;
+  width: 500px;
+}
+.l-teamtable-wp table {
+  width: 100%;
+}
+.l-teamtable-wp table th {
+  padding: 12px 0;
+}
+.l-teamtable-wp table td {
+  padding: 12px 0;
+}
+.l-teamtable-wp .l-pagesplit-wp {
+  width: 435px;
+  height: 40px;
+}
+.l-teamtable-wp .l-pagesplit-wp ul li {
+  float: left;
+}
+.l-teamtable-wp .l-pagesplit-wp .l-page {
+  margin-left: 5px;
+}
+.l-teamtable-wp .l-pagesplit-wp a {
+  padding: 10px 15px;
+  display: block;
+}

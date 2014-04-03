@@ -1,0 +1,61 @@
+.sk-personpic {
+  border: 1px solid #66afe9;
+}
+.sk-form-wp form label {
+  color: #394041;
+  font-size: 1.6em;
+}
+.sk-form-wp form label span {
+  color: red;
+}
+.sk-form-wp form .sk-input {
+  border: 1px solid #cdcdcd;
+  box-shadow: inset 0 0 2px #e9e9e9;
+  color: #394041;
+  outline: none;
+  font-size: 1.8em;
+}
+.sk-form-wp form .sk-input-request {
+  font-size: 1.2em;
+}
+.sk-form-wp form .sk-input-status {
+  color: red;
+  font-size: 1.4em;
+}
+.sk-form-wp form .sk-other-school {
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: #62caea;
+}
+.sk-form-wp form .sk-other-school:hover {
+  background-color: #35bbe4;
+  cursor: pointer;
+}
+.sk-form-wp form .sk-submit {
+  border: none;
+  color: #ffffff;
+  font-size: 1.7em;
+}
+.sk-form-wp form .sk-register {
+  background-color: #62caea;
+}
+.sk-form-wp form .sk-register:hover {
+  cursor: pointer;
+  background-color: #35bbe4;
+}
+.sk-form-wp form .sk-login {
+  background-color: #ec894d;
+}
+.sk-form-wp form .sk-login:hover {
+  cursor: pointer;
+  background-color: #e3712c;
+}
+.sk-upload-pic {
+  border: none;
+  background-color: #62caea;
+  color: #ffffff;
+}
+.sk-upload-pic:hover {
+  cursor: pointer;
+  background-color: #35bbe4;
+}

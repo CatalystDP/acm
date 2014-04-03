@@ -1,0 +1,24 @@
+.sk-teamtable-wp table {
+  border-spacing: 0;
+  empty-cells: show;
+  border-collapse: separate;
+  table-layout: fixed;
+}
+.sk-teamtable-wp table th {
+  font-size: 1.6em;
+  color: #6f7b8a;
+}
+.sk-teamtable-wp table td {
+  border-top: 1px solid #E8EDF1;
+  text-align: center;
+  font-size: 1.4em;
+  color: #576475;
+}
+.sk-teamtable-wp .sk-pagesplit-wp a {
+  background-color: #F4F2EF;
+  border: 1px solid #CECAC4;
+  color: #555555;
+}
+.sk-teamtable-wp .sk-pagesplit-wp .sk-current {
+  background-color: #ffffff;
+}

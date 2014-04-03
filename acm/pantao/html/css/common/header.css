@@ -1,0 +1,50 @@
+.hd-wp {
+  width: 100%;
+  height: 133px;
+}
+.hd-wp .l-hd-c {
+  width: 1000px;
+  height: 100%;
+}
+.hd-wp .l-hd-c .hd-logo-wp img {
+  width: 120px;
+  height: auto;
+  border: none;
+}
+.hd-wp .l-hd-c .hd-login-wp {
+  width: 150px;
+  height: 50px;
+}
+.hd-wp .l-hd-c .hd-login-wp > a {
+  width: 75px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 1.3em;
+  color: #2d2d2d;
+}
+.hd-wp .l-hd-c .hd-login-wp > .hd-login-logined {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.nav-wp {
+  width: 1000px;
+  height: 30px;
+  margin-top: -17px;
+}
+.nav-wp .l-nav-c {
+  width: 473px;
+  height: 30px;
+}
+.nav-wp .l-nav-c ul li {
+  float: left;
+  margin-left: 40px;
+}
+.nav-wp .l-nav-c ul li a {
+  font-size: 1.8em;
+  color: #2d2d2d;
+}

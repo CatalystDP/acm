@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <title></title>
+    <base href="http://192.168.63.1/acm/html/"/>
+    <link rel="stylesheet" href="css/teamlist/index.css"/>
+    <link rel="stylesheet" href="css/tools/dp&mz_tools.css"/>
+</head>
+<body>
+<?php
+    include_once("../../elements/header/header.html");
+?>
+<div class="v-marginfix"></div>
+<div class="l-teamtable-wp sk-teamtable-wp js-teamtable-wp center">
+    <!--渲染elements/teamlist/teamlist.html中的内容-->
+    <table>
+        <!--表格由php渲染-->
+        <tr>
+            <th>队伍名称</th>
+            <th>学校</th>
+            <th>状态</th>
+        </tr>
+        <!--表头是静态的-->
+        <!--剩余的行由php动态生成-->
+        <tr>
+            <td>坑爹的队伍</td>
+            <td>大连坑爹大学</td>
+            <td>通过</td>
+        </tr>
+    </table>
+    <div class="v-marginfix"></div>
+    <div class="l-pagesplit-wp sk-pagesplit-wp center">
+        <!--分页：第一页上一页下一页最后一页为固定php
+        ul中的li的链接及页号有php动态渲染
+        -->
+        <div class="float-left js-first-page js-page">
+            <a href="">第一页</a>
+        </div>
+        <div class="float-left l-page js-prev-page js-page">
+            <a href="">上一页</a>
+        </div>
+        <ul class="float-left">
+            <li class="l-page js-page">
+                <a href="" class="sk-current">1</a>
+            </li>
+            <li class="l-page js-page">
+                <a href="">2</a>
+            </li>
+            <li class="l-page js-page">
+                <a href="">3</a>
+            </li>
+        </ul>
+        <div class="float-left l-page js-next-page js-page">
+            <a href="">下一页</a>
+        </div>
+        <div class="float-left l-page js-last-page js-page">
+            <a href="">最后一页</a>
+        </div>
+    </div>
+</div>
+<?php
+    include_once("../../elements/footer/footer.html");
+?>
+<script src="seajs/sea.js"></script>
+<script>
+    seajs.config({
+        alias: {
+            "jquery": "js/tools/jquery-1.10.2.min.js",
+            "jqueryColor": "js/tools/jquery.color-2.1.2.min.js"
+        }
+    });
+    seajs.use("js/app/teamlist/index.js");
+</script>
+</body>
+</html>

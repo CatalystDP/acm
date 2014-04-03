@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <base href="http://192.168.63.1/acm/html/"/>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Emulate=IE7">
+    <title></title>
+    <link rel="stylesheet" href="css/index/index.css"/>
+    <link rel="stylesheet" href="css/tools/dp&mz_tools.css"/>
+</head>
+<body>
+<div class="hd-wp">
+    <div class="l-hd-c center">
+        <div class="hd-logo-wp float-left position-relative">
+            <a href="page/index">
+                <img src="img/index/logo.gif" alt=""/>
+            </a>
+        </div>
+        <div class="hd-login-wp float-right">
+            <a class="float-left" href="page/login">登录</a>
+            <!-- php控制登录后 a标签加上 hd-login-logined类，
+                链接为当前用户修改信息页 -->
+            <a class="float-left" href="page/regist">注册</a>
+            <!-- 登录后php 修改为退出，href为退出对应的php -->
+        </div>
+    </div>
+</div>
+<div class="nav-wp center">
+    <div class="l-nav-c float-right">
+        <ul>
+            <li>
+                <a href="">队伍信息</a>
+            </li>
+            <li>
+                <a href="">首页</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="banner-wp" class="l-banner-wp">
+    <div id="banner-key-prev" class="banner-key sk-banner-key">
+    </div>
+    <div id="banner-key-next" class="banner-key sk-banner-key">
+    </div>
+    <div class="banner">
+        <img src="img/index/02_slide_1.jpg" alt=""/>
+        <img src="img/index/03_slide_1.jpg" alt=""/>
+        <img src="img/index/04_slide_1.jpg" alt=""/>
+        <img src="img/index/05_slide_1.jpg" alt=""/>
+        <img src="img/index/06_slide_1.jpg" alt=""/>
+        <img src="img/index/08_slide_1.jpg" alt=""/>
+        <img src="img/index/09_slide_1.jpg" alt=""/>
+    </div>
+</div>
+<div class="l-content-wp">
+    <div class="l-content-first sk-content-first l-content">
+        <div class="center">
+            <div class="l-inform-title sk-inform-title float-left">
+                2014年第三届ACM程序设计大赛
+            </div>
+            <div class="l-angle sk-angle float-left"></div>
+            <div class="v-marginfix clearfix"></div>
+            <div class="l-inform-content sk-inform-content float-left">
+
+            </div>
+            <div class="l-inform-split sk-split float-left"></div>
+            <div class="l-inform-date sk-inform-date float-left">
+                <p>
+                    2014年4月12日
+                </p>
+                <p>
+                    10:00-15:00 正赛
+                </p>
+
+            </div>
+            <div class="v-marginfix clearfix"></div>
+        </div>
+    </div>
+    <div class="v-marginfix clearfix"></div>
+    <div class="l-content-fifth l-content sk-content-fifth">
+        <div class="l-fifth-c center">
+            <div class="v-marginfix"></div>
+            <img class="display-block center" src="img/index/icon6.png" alt=""/>
+            <div class="l-fifth-form-wp">
+                <form action="">
+                    <div class="l-input-wp sk-input-wp">
+                        <label for="content">有疑问？</label>
+                        <textarea id="content" name="content" class="center"></textarea>
+                    </div>
+                    <div class="l-submit sk-submit center">提交</div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="l-footer-wp sk-footer-wp" style="margin-top: 0;">
+    <div class="l-footer-c sk-footer-c center">
+            <span class="footer-margin">Email :</span>
+            <span class="block-margin">dlmu_acm2013@163.com</span>
+    </div>
+</div>
+
+<script src="seajs/sea.js"></script>
+<script>
+    seajs.config({
+        alias: {
+            "jquery": "js/tools/jquery-1.10.2.min.js",
+            "jqueryColor": "js/tools/jquery.color-2.1.2.min.js"
+        }
+    });
+    seajs.use("js/app/index/index.js");
+</script>
+</body>
+</html>

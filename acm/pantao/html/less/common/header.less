@@ -1,0 +1,55 @@
+@full-width: 100%;
+@full-height: 100%;
+@import "./debug.less";
+@import "function.less";
+.hd-wp {
+  width: @full-width;
+  height: 133px;
+  .l-hd-c {
+    width: 1000px;
+    height: @full-height;
+    .hd-logo-wp {
+      img {
+        width: 120px;
+        height: auto;
+        border: none;
+      }
+    }
+    .hd-login-wp {
+      width: 150px;
+      height: 50px;
+      & > a {
+        width: 75px;
+        height: @full-height;
+        text-align: center;
+        line-height: 50px;
+        vertical-align: middle;
+        font-size: 1.3em;
+        color: #2d2d2d;
+      }
+      & > .hd-login-logined {
+        text-align: left;
+        .textEllipsis;
+      }
+      //该class是用于js的
+    }
+  }
+}
+
+.nav-wp {
+  width: 1000px;
+  height: 30px;
+  margin-top: -17px;
+  .l-nav-c {
+    width: 473px;
+    height: 30px;
+    ul li {
+      float: left;
+      margin-left: 40px;
+      a {
+        font-size: 1.8em;
+        color: #2d2d2d;
+      }
+    }
+  }
+}
